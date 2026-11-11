@@ -34,4 +34,5 @@ jobs:
         with:
           name: revanced-patcher
           path: patcher/build/libs
-          archive: false
+          if-no-files-found: error
+
